@@ -1,34 +1,32 @@
-# 🎓 Student-Course Management System
+# 🎓 Student-Course Manager
 
-A full-stack application for managing students, courses, and enrollments with **FastAPI backend** and **Streamlit frontend**.
+A full-stack web application to manage **students, courses, and enrollments** with features for adding, updating, deleting, searching, and bulk uploads.  
+Built with **FastAPI (backend)**, **SQLModel (database ORM)**, and **Streamlit (frontend UI)**.  
 
 ---
 
 ## 🚀 Features
-- Add, update, delete students
-- Add, update, delete courses
-- Enroll students into courses
-- Manage grades for enrollments
-- Dashboard with previous enrollments
-- Simple login system
+- 👩‍🎓 Manage Students (Add, Update, Delete, Search, Bulk Upload)  
+- 📘 Manage Courses (Add, Update, Delete, Search, Bulk Upload)  
+- 🎓 Manage Enrollments (Enroll students, Update grades, Bulk upload, Range-based enrollment)  
+- 🔎 Search functionality across Students, Courses, and Enrollments  
+- 📊 Dashboard with metrics & recent activity  
+- 🔐 Login with role-based access (Admin vs Viewer)  
 
 ---
 
 ## 🛠️ Tech Stack
-- **Backend**: FastAPI + SQLModel + SQLite
-- **Frontend**: Streamlit
-- **Language**: Python 3.12
+- **Backend:** FastAPI + SQLModel + SQLite  
+- **Frontend:** Streamlit  
+- **Language:** Python 3.12  
+- **Auth:** Simple username/password login  
+- **Version Control:** Git & GitHub  
 
 ---
 
-## 📂 Project Structure
-student-course-manager/
-│── app/
-│ ├── api/ # FastAPI routes
-│ ├── crud/ # CRUD operations
-│ ├── models.py # Database models
-│ ├── db.py # DB connection
-│── ui/
-│ ├── main_ui.py # Streamlit app
-│── school.db # SQLite database
-│── README.md # Project description
+## ⚙️ Setup Instructions
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/<your-username>/student-course-manager.git
+   cd student-course-manager
