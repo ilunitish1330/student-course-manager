@@ -24,9 +24,3 @@ Built with **FastAPI (backend)**, **SQLModel (database ORM)**, and **Streamlit (
 
 ---
 
-## ⚙️ Setup Instructions
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/<your-username>/student-course-manager.git
-   cd student-course-manager
