@@ -23,7 +23,7 @@ Built with **FastAPI (backend)**, **SQLModel (database ORM)**, and **Streamlit (
 - **Version Control:** Git & GitHub  
 
 ---
-## 📸 Screenshots
+## 📸 Screenshots_Admin
 
 ### 🔐 Login Page
 ![Login Page](login_page.png)
@@ -39,6 +39,26 @@ Built with **FastAPI (backend)**, **SQLModel (database ORM)**, and **Streamlit (
 
 ### 🎓 Enrollments
 ![Enrollments Page](enrollments_mnagement.png)
+
+## 📸 Screenshots_Viewer
+
+## 📊 Dashboard
+![Dashboard](dashboard_viewer.png)
+
+### 👩‍🎓 Students View
+![Students Page](students_view.png)
+
+### 📘 Courses View
+![Courses Page](courses_view.png)
+
+### 🎓 Enrollments View
+![Enrollments Page](enrollments_view.png)
+
+
+
+
+
+
 
 
 
