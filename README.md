@@ -23,4 +23,11 @@ Built with **FastAPI (backend)**, **SQLModel (database ORM)**, and **Streamlit (
 - **Version Control:** Git & GitHub  
 
 ---
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](D:/student-course-manager/app/images/login_page.png)
+
+
+
 
