@@ -28,6 +28,19 @@ Built with **FastAPI (backend)**, **SQLModel (database ORM)**, and **Streamlit (
 ### 🔐 Login Page
 ![Login Page](login_page.png)
 
+## 📊 Dashboard
+![Dashboard](dashboard_admin.png)
+
+### 👩‍🎓 Students Management
+![Students Page](students_management_admin.png)
+
+### 📘 Courses Management
+![Courses Page](courses_managements.png)
+
+### 🎓 Enrollments
+![Enrollments Page](enrollments_mnagement.png)
+
+
 
 
 
