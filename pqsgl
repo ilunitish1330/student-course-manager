@@ -1,0 +1,19 @@
+                [ User Browser ]
+                       |
+                       v
+          +---------------------------+
+          |   Kubernetes Cluster       |
+          |  Namespace: student-course-manager |
+          |                            |
+          |  +---------------------+   |
+          |  |   Streamlit UI Pod  |---|---[ student-ui-service (NodePort:30082) ]
+          |  +---------------------+   |
+          |                            |
+          |  +---------------------+   |
+          |  |   FastAPI API Pod   |---|---[ student-api-service (NodePort:30081) ]
+          |  +---------------------+   |
+          |            |               |
+          |            v               |
+          |   [ Persistent Volume ]    |
+          |   (SQLite DB / PVC)        |
+          +----------------------------+
